@@ -44,7 +44,7 @@
                             <div class="offset-md-5 p-5">
                                 <div class="text-md-right mb-3">
                                     @if (Route::has('password.request'))
-                                        <a class="btn" href="{{ route('password.request') }}">
+                                        <a class="nav-link text-info-emphasis" href="{{ route('password.request') }}">
                                             Forgot Password?
                                         </a>
                                     @endif
